@@ -60,8 +60,34 @@ docker compose up --build
 
   * Data source: `scraper-postgres`
   * Dashboard shows price trends over time.
+---
+
+## Grafana Setup
+
+1. **Add PostgreSQL as a Data Source**
+
+* Go to **Settings → Data Sources → Add data source → PostgreSQL**
+* Fill in the fields:
+
+| Name     | Value         |
+| -------- | ------------- |
+| Name     | Postgres      |
+| Host     | postgres:5432 |
+| Database | scraper       |
+| User     | postgres      |
+| Password | postgres      |
+| SSL Mode | disable       |
+
+* Click **Save & Test** → you should see **Data source is working**.
+
+2. **Create Dashboard**
+
+* Go to **Create → Import → Upload JSON file**
+* Use the provided `dashboardimport.json`
+* The dashboard will display product price trends from your scraper.
 
 ---
+
 
 ## Adding Products
 
