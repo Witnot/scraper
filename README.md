@@ -73,14 +73,14 @@ docker compose up --build
 * Go to **Settings → Data Sources → Add data source → PostgreSQL**
 * Fill in the fields:
 
-| Name     | Value         |
-| -------- | ------------- |
-| Name     | Postgres      |
-| Host     | postgres:5432 |
-| Database | scraper       |
-| User     | postgres      |
-| Password | postgres      |
-| SSL Mode | disable       |
+| Name     | Value           |
+| -------- | --------------- |
+| Name     | scraper-postgres|
+| Host     | postgres:5432   |
+| Database | scraper         |
+| User     | postgres        |
+| Password | postgres        |
+| SSL Mode | disable         |
 
 * Click **Save & Test** → you should see **Data source is working**.
 
