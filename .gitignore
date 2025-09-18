@@ -1,0 +1,18 @@
+# Binaries
+/app
+*.exe
+*.out
+*.test
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vendor / modules
+vendor/
+go.sum
+
+# Docker
+*.log
+*.env
+docker-compose.override.yml
