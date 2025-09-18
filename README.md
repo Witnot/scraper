@@ -9,7 +9,7 @@ This project is a concurrent web scraper built in Go. It scrapes product prices 
 
 Here is an example of the scraper dashboard in Grafana:
 
-![Grafana Dashboard](docs/grafana_example.png)
+![Grafana Dashboard](docs/example.png)
 ---
 
 ## Requirements
